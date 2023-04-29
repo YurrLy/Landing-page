@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav img {
+    width: 11%;
+    height: 11%;
+}
+
+header {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+#section-1 {
+    height: 80vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(18, 18, 18, 1)), url("/Midia/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+#titulo h1 {
+    color: white;
+    font-family: 'Palanquin', Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+}
+#btn {
+    background-color: rgba(128, 195, 66, 1);
+}
+
+#section-2 {
+    height: 90vh;
+    background-color: #121212;
+}
