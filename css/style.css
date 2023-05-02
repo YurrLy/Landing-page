@@ -10,10 +10,18 @@ nav img {
     height: 11%;
 }
 
-header {
+header, nav {
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
-
+    transition: background-color 0.5s ease-in-out;
 }
+
+#Header.fixed {
+    background-color: #121212;
+  }
+
+  #Nav.fixed {
+    background-color: #121212;
+  }
 
 #section-1 {
     height: 80vh;
@@ -23,16 +31,51 @@ header {
 
   }
 
-#titulo h1 {
+#titulo, #section-2 h1 {
     color: white;
     font-family: 'Palanquin', Arial, Helvetica, sans-serif;
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 #btn {
     background-color: rgba(128, 195, 66, 1);
 }
 
 #section-2 {
-    height: 90vh;
+    height: 200vh;
     background-color: #121212;
+}
+
+#div-imagens h2 {
+    font-family: 'Palanquin', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+ #div-imagens:hover {
+    background-color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+i {
+    background-color: white;
+}
+
+svg {
+    background-color: white;
+    border-radius: 100%;
+    color: white;
+    padding: 1px;
+}
+
+#pontos button {
+    color: white;
+    padding: 0.5vh; 
+    border-radius: 100%; 
+    border: none;
+}
+
+#pontos button.active {
+    background-color: rgba(128, 195, 66, 1);
 }
