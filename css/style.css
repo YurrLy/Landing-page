@@ -79,3 +79,17 @@ svg {
 #pontos button.active {
     background-color: rgba(128, 195, 66, 1);
 }
+
+#div-cursos {
+    margin: 0vh 12vw;
+}
+
+#div-cursos div {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+#div-cursos h3, p {
+    color: white;
+}
